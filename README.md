@@ -2,6 +2,8 @@
 
 A simple web app to calculate the value of your Bitcoin holdings based on the current Bitcoin price in USD.
 
+![App Image](Non-App/App%20Image.png)
+
 ## Features
 
 - Fetches the current Bitcoin price in USD.
