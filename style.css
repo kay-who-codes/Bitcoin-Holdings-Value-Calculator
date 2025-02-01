@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+.bitcoin-price {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    background-color: #222;
+    color: white;
+    border: 1px solid #444;
+    text-align: center;
+}
+input::placeholder {
+    color: #aaa;
+}
+.calculated-value {
+    color: #ff7300;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 40px;    
+}
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 48%;
+    text-align: left;
+}
+.negative {
+    color: rgb(211, 40, 40);
+}
+.positive {
+    color: rgb(26, 153, 26)
+}
+h1, h2, h3 {
+    margin: 10px 0;
+}

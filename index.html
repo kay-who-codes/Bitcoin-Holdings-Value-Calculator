@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🟠 Bitcoin Value Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="bitcoin-price" id="bitcoin-price">Loading...</h1>
+        <input type="number" id="user-input" placeholder="Enter current holdings (BTC)" value="" oninput="calculateValue()">
+        <h2 class= "calculated-value" id="calculated-value"></h2>
+        <div class="columns">
+            <div class="column">
+                <h3 class="negative" id="minus-5"></h3>
+                <h3 class="negative" id="minus-10"></h3>
+                <h3 class="negative" id="minus-20"></h3>
+                <h3 class="negative" id="minus-40"></h3>
+                <h3 class="negative" id="minus-60"></h3>
+                <h3 class="negative" id="minus-80"></h3>
+            </div>
+            <div class="column">
+                <h3 class="positive" id="plus-5"></h3>
+                <h3 class="positive" id="plus-10"></h3>
+                <h3 class="positive" id="plus-20"></h3>
+                <h3 class="positive" id="plus-40"></h3>
+                <h3 class="positive" id="plus-60"></h3>
+                <h3 class="positive" id="plus-80"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
