@@ -2,7 +2,7 @@
 
 A simple web app to calculate the value of your Bitcoin holdings based on the current Bitcoin price in USD.
 
-[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/Time-Progress-Meters/)
+[![App Image](Non-App/App%20Image.png)](https://kay-who-codes.github.io/Bitcoin-Holdings-Value-Calculator/)
 
 ## Features
 
