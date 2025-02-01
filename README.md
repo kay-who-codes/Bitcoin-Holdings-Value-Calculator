@@ -1,12 +1,12 @@
 # 🟠 Bitcoin Value Calculator
 
-A simple web app to calculate the value of your Bitcoin holdings based on the current Bitcoin price in GBP.
+A simple web app to calculate the value of your Bitcoin holdings based on the current Bitcoin price in USD.
 
 ## Features
 
-- Fetches the current Bitcoin price in GBP.
+- Fetches the current Bitcoin price in USD.
 - Allows users to input their Bitcoin holdings.
-- Calculates and displays the value of the holdings in GBP.
+- Calculates and displays the value of the holdings in USD.
 - Shows potential value changes for various percentage increases and decreases.
 
 ## Usage
