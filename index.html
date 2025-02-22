@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🟠 Bitcoin Value Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
+<!-- Header Bar -->
+<div id="header"></div>
+
+<!-- Main Content -->
     <div class="container">
         <h1 class="bitcoin-price" id="bitcoin-price">Loading...</h1>
         <input type="number" id="user-input" placeholder="Enter current holdings (BTC)" value="" oninput="calculateValue()">
-        <h2 class= "calculated-value" id="calculated-value"></h2>
+        <h2 class="calculated-value" id="calculated-value"></h2>
+        <div class="currency-toggle">
+            <button id="currency-switch" onclick="toggleCurrency()">🇺🇸 USD</button>
+        </div>
         <div class="columns">
             <div class="column">
                 <h3 class="negative" id="minus-5"></h3>
@@ -30,6 +38,7 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+<script src="script.js" defer></script>
+<script src="header.js" defer></script>  
 </body>
 </html>

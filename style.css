@@ -4,6 +4,7 @@ body {
     margin: 20px;
     background-color: #121212;
     color: white;
+    margin-top: 105px;
 }
 
 .bitcoin-price {
@@ -28,6 +29,25 @@ input {
 }
 input::placeholder {
     color: #aaa;
+}
+
+.currency-toggle {
+    margin: 20px 0;
+}
+
+#currency-switch {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+#currency-switch:hover {
+    background-color: #444;
 }
 .calculated-value {
     color: #ff7300;
